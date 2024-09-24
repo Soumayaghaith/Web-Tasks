@@ -1,0 +1,318 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.home {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    background-image: url(../Images/Backery_Home.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* Prevent tiling */
+    background-position: center;
+    /* Center the image */
+}
+
+.welcome {
+
+    margin-top: 150px;
+    text-align: center;
+}
+
+.logo {
+    width: 176.5px;
+    height: 48;
+    margin-left: 150px;
+    margin-top: 15px;
+    display: inline-block;
+}
+
+.home ul {
+    display: inline-block;
+    list-style-type: none;
+    /* Removes the bullet points */
+    margin-left: 550px;
+    margin-top: 15px;
+    font-size: 16px;
+
+
+}
+
+.home li {
+    display: inline-block;
+    margin-right: 25px;
+    color: white;
+
+}
+
+.home a {
+
+    text-decoration: none;
+    /* Removes the underline */
+    color: inherit;
+    /* Optional: Ensures the link color matches surrounding text */
+}
+
+.home h1 {
+    color: white;
+    font-size: 50px;
+    font-family: Alegreya;
+
+
+
+}
+
+.home p {
+    font-family: "Alegreya";
+    font-size: 22px;
+    color: white;
+}
+
+.home button {
+    background-color: transparent;
+    margin-top: 12px;
+    border-radius: 5%;
+    margin-left: 12px;
+    padding: 15px 28px;
+    color: white;
+    font-size: 15px;
+}
+
+
+/* About Section */
+.About {
+    /* background-color: violet; */
+    width: 90%;
+    margin: auto;
+    height:100vh;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.about-image {
+    /* background-color: wheat; */
+    width: 50%;
+    float: left;
+}
+
+.about-image img {
+    width: 100%;
+}
+
+.about-cap {
+    /* background-color: yellow; */
+    width: 40%;
+    float: right;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    margin-right: 60px;
+
+}
+
+.about-cap p {
+    margin: 20px 0px;
+    color: #686868;
+
+}
+
+.about-list {
+    text-align: left;
+    color: #686868;
+}
+
+.about-list ul li {
+    padding: 15px;
+}
+
+
+
+/* Location Section */
+.Location {
+    clear: both;
+    background-color: #f8f8f8;
+    width: 90%;
+    height:100vh;
+    margin: auto;
+
+
+
+}
+
+.location-image {
+
+    margin: 50px 30px;
+    width: 40%;
+    float: right;
+}
+
+.location-image img {
+
+    
+    width: 100%;
+}
+
+.location-content {
+
+    float: left;
+    width: 40%;
+    margin: 50px 30px;
+    color: #686868;
+    font-size: 18px;
+
+
+
+}
+
+.location-content h2 {
+    color: black;
+}
+
+.P1 {
+    margin: 30px 0px;
+}
+
+/* Backing Section */
+.Backing-Section {
+    clear: both;
+    height:100vh;
+    text-align: center;
+
+
+}
+
+.meals {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+}
+
+.meal {
+    width: 33.33%;
+    text-align: center;
+    float: left;
+    font-size: 20px;
+}
+
+.meal img {
+    width: 100%;
+
+}
+
+.meal p {
+    margin: 15px 0px;
+    color: #686868;
+}
+
+.inner {
+    padding: 30px;
+}
+
+/* Contact Section */
+.contact-map {
+    clear: both;
+    width: 40%;
+    height:100vh;
+    float: right;
+    margin-top: 10px;
+
+}
+
+.Contact-info {
+
+    width: 90%;
+    margin: auto;
+    clear: both;
+    /* overflow: hidden;  */
+
+}
+
+.contact-cap {
+    /* background-color: yellow; */
+    width: 50%;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+    float: left;
+
+
+
+}
+
+.contact-cap p {
+    margin: 20px 0px;
+    color: #686868;
+
+}
+
+.contact-list {
+    text-align: left;
+    color: #686868;
+
+
+
+
+
+}
+
+.contact-list ul li {
+    padding: 15px;
+
+
+}
+
+
+
+/* Footer */
+.Footer {
+    clear: both;
+    height:100vh;
+    padding-top: 60px;
+    padding-bottom: 52px;
+    overflow: hidden;
+    background-color: #403d38;
+
+
+
+}
+
+.Fcontainer {
+    width: 90%;
+    margin: auto;
+
+}
+
+.Footer h3 {
+    color: white;
+
+}
+
+.FQ {
+    width: 24%;
+    float: left;
+    background-color: #403d38;
+    color: #969696;
+    font-size: 16px;
+    margin-left: 10px;
+
+}
+
+.info {
+    clear: both;
+
+}
+
+.info-cap {
+
+    margin: auto;
+    text-align: center;
+    width: 40%;
+    padding: 30px;
+
+}
+
+.info-cap img {
+    width: 50%;
+    margin-top:70px;
+}
