@@ -1,5 +1,11 @@
 body {
     font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.container {
+    width: 85%;
+    margin: 0 auto;
 }
 
 .home {
@@ -83,9 +89,9 @@ body {
 /* About Section */
 .About {
     /* background-color: violet; */
-    width: 90%;
+    width: 100%;
+    min-height: 100vh;
     margin: auto;
-    height:100vh;
     margin-top: 50px;
     margin-bottom: 50px;
 }
@@ -132,10 +138,11 @@ body {
 .Location {
     clear: both;
     background-color: #f8f8f8;
-    width: 90%;
-    height:100vh;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
     margin: auto;
-
+    min-height: 100vh;
 
 
 }
@@ -143,30 +150,32 @@ body {
 .location-image {
 
     margin: 50px 30px;
-    width: 40%;
-    float: right;
+    width: 50%;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .location-image img {
 
-    
+
     width: 100%;
 }
 
 .location-content {
 
-    float: left;
+    display: inline-block;
     width: 40%;
     margin: 50px 30px;
     color: #686868;
     font-size: 18px;
-
+    vertical-align: middle;
 
 
 }
 
 .location-content h2 {
     color: black;
+    margin-top: 0px;
 }
 
 .P1 {
@@ -175,15 +184,18 @@ body {
 
 /* Backing Section */
 .Backing-Section {
+    width: 100%;
     clear: both;
-    height:100vh;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 100vh;
     text-align: center;
 
 
 }
 
 .meals {
-    width: 90%;
+    width: 100%;
     margin: auto;
     text-align: center;
 }
@@ -213,7 +225,6 @@ body {
 .contact-map {
     clear: both;
     width: 40%;
-    height:100vh;
     float: right;
     margin-top: 10px;
 
@@ -221,9 +232,10 @@ body {
 
 .Contact-info {
 
-    width: 90%;
+    width: 100%;
     margin: auto;
     clear: both;
+    min-height: 100vh;
     /* overflow: hidden;  */
 
 }
@@ -267,7 +279,7 @@ body {
 /* Footer */
 .Footer {
     clear: both;
-    height:100vh;
+    min-height: 100vh;
     padding-top: 60px;
     padding-bottom: 52px;
     overflow: hidden;
@@ -277,11 +289,7 @@ body {
 
 }
 
-.Fcontainer {
-    width: 90%;
-    margin: auto;
 
-}
 
 .Footer h3 {
     color: white;
@@ -314,5 +322,5 @@ body {
 
 .info-cap img {
     width: 50%;
-    margin-top:70px;
+    margin-top: 70px;
 }
